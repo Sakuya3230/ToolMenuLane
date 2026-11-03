@@ -1,0 +1,337 @@
+{
+  "settings": {
+    "orientation": "vertical",
+    "submenu_direction": "right",
+    "button_size": 48,
+    "spacing": 8,
+    "opacity": 1.0,
+    "main_viewport_size": 220,
+    "submenu_viewport_size": 240,
+    "home_icon": ":/home.png"
+  },
+  "profiles": [
+    {
+      "id": "default",
+      "label": "Default",
+      "icon": ":/out_transform.png",
+      "color": "#5a5a5a",
+      "items": [
+        {
+          "id": "item1",
+          "label": "Item 1",
+          "icon": ":/out_character.png",
+          "color": "#aa6565",
+          "submenu": [
+            {
+              "id": "item1_1",
+              "label": "Item 1-1",
+              "icon": ":/out_character.png",
+              "color": "#4aaa41",
+              "submenu": [
+                {
+                  "id": "item1_1_1",
+                  "label": "Item 1-1-1",
+                  "icon": ":/out_locator.png",
+                  "action": "old.VRChat.editor:main",
+                  "submenu": []
+                },
+                {
+                  "id": "item1_1_2",
+                  "label": "Item 1-1-2",
+                  "icon": ":/out_lambert.png",
+                  "action": "ToolMenuLane.core.debug_actions:echo",
+                  "kwargs": {
+                    "message": "Item 3 clicked"
+                  },
+                  "submenu": []
+                }
+              ]
+            },
+            {
+              "id": "item1_2",
+              "label": "Item 1-2",
+              "icon": ":/out_nurbsCurve.png",
+              "color": "#5a5aaa",
+              "submenu": []
+            },
+            {
+              "id": "item1_3",
+              "label": "Item 1-3",
+              "icon": ":/out_nurbsCurve.png",
+              "color": "#9a4a16",
+              "submenu": []
+            },
+            {
+              "id": "item1_4",
+              "label": "Item 1-4",
+              "icon": ":/out_nurbsCurve.png",
+              "submenu": []
+            },
+            {
+              "id": "item1_5",
+              "label": "Item 1-5",
+              "icon": ":/out_nurbsCurve.png",
+              "submenu": []
+            },
+            {
+              "id": "item1_6",
+              "label": "Item 1-6",
+              "icon": ":/out_nurbsCurve.png",
+              "submenu": []
+            },
+            {
+              "id": "item1_7",
+              "label": "Item 1-7",
+              "icon": ":/out_nurbsCurve.png",
+              "submenu": []
+            },
+            {
+              "id": "item1_8",
+              "label": "Item 1-8",
+              "icon": ":/out_nurbsCurve.png",
+              "submenu": []
+            },
+            {
+              "id": "item1_9",
+              "label": "Item 1-9",
+              "icon": ":/out_nurbsCurve.png",
+              "submenu": []
+            },
+            {
+              "id": "item1_10",
+              "label": "Item 1-10",
+              "icon": ":/out_nurbsCurve.png",
+              "submenu": []
+            }
+          ]
+        },
+        {
+          "id": "item2",
+          "label": "Item 2",
+          "icon": ":/out_timeEditorAnimSource.png",
+          "color": "#9a4a99",
+          "action": "import maya.mel as mel; mel.eval('polyCube;')",
+          "submenu": [],
+          "args": []
+        },
+        {
+          "id": "item3",
+          "label": "Item 3",
+          "icon": ":/output.png",
+          "color": "#1dff68",
+          "action": "ToolMenuLane.core.debug_actions:echo",
+          "kwargs": {
+            "message": "Item 3 clicked"
+          },
+          "submenu": []
+        },
+        {
+          "id": "item4",
+          "label": "Item 4",
+          "icon": ":/output.png",
+          "color": "#eeeeee",
+          "action": "ToolMenuLane.core.debug_actions:echo",
+          "kwargs": {
+            "message": "Item 4 clicked"
+          },
+          "submenu": []
+        },
+        {
+          "id": "item5",
+          "label": "Item 5",
+          "icon": ":/output.png",
+          "color": "#dddddd",
+          "action": "ToolMenuLane.core.debug_actions:echo",
+          "kwargs": {
+            "message": "Item 5 clicked"
+          },
+          "submenu": []
+        },
+        {
+          "id": "item6",
+          "label": "Item 6",
+          "icon": ":/output.png",
+          "color": "#cccccc",
+          "action": "ToolMenuLane.core.debug_actions:echo",
+          "kwargs": {
+            "message": "Item 6 clicked"
+          },
+          "submenu": []
+        },
+        {
+          "id": "item7",
+          "label": "Item 7",
+          "icon": ":/output.png",
+          "color": "#bbbbbb",
+          "action": "ToolMenuLane.core.debug_actions:echo",
+          "kwargs": {
+            "message": "Item 7 clicked"
+          },
+          "submenu": []
+        },
+        {
+          "id": "item8",
+          "label": "Item 8",
+          "icon": ":/output.png",
+          "color": "#aaaaaa",
+          "action": "ToolMenuLane.core.debug_actions:echo",
+          "kwargs": {
+            "message": "Item 8 clicked"
+          },
+          "submenu": []
+        },
+        {
+          "id": "item9",
+          "label": "Item 9",
+          "icon": ":/output.png",
+          "color": "#999999",
+          "action": "ToolMenuLane.core.debug_actions:echo",
+          "kwargs": {
+            "message": "Item 9 clicked"
+          },
+          "submenu": []
+        },
+        {
+          "id": "item14",
+          "label": "Item 14",
+          "icon": ":/out_transform.png",
+          "color": "#4a90d9",
+          "submenu": []
+        },
+        {
+          "id": "item15",
+          "label": "Item 15",
+          "icon": ":/out_transform.png",
+          "color": "#4aaad9",
+          "submenu": []
+        },
+        {
+          "id": "item16",
+          "label": "Item 16",
+          "icon": ":/out_transform.png",
+          "submenu": []
+        },
+        {
+          "id": "item17",
+          "label": "Item 17",
+          "icon": ":/out_transform.png",
+          "submenu": []
+        },
+        {
+          "id": "item18",
+          "label": "Item 18",
+          "icon": ":/out_transform.png",
+          "submenu": []
+        },
+        {
+          "id": "item19",
+          "label": "Item 19",
+          "icon": ":/out_transform.png",
+          "submenu": []
+        },
+        {
+          "id": "item20",
+          "label": "Item 20",
+          "icon": ":/out_transform.png",
+          "submenu": []
+        },
+        {
+          "id": "item21",
+          "label": "Item 21",
+          "icon": ":/out_transform.png",
+          "submenu": []
+        },
+        {
+          "id": "item22",
+          "label": "Item 22",
+          "icon": ":/out_transform.png",
+          "submenu": []
+        },
+        {
+          "id": "item23",
+          "label": "Item 23",
+          "icon": ":/out_transform.png",
+          "submenu": []
+        },
+        {
+          "id": "item24",
+          "label": "Item 24",
+          "icon": ":/out_transform.png",
+          "submenu": []
+        },
+        {
+          "id": "item25",
+          "label": "Item 25",
+          "icon": ":/out_transform.png",
+          "submenu": []
+        },
+        {
+          "id": "item26",
+          "label": "Item 26",
+          "icon": ":/out_transform.png",
+          "submenu": []
+        }
+      ]
+    },
+    {
+      "id": "modeling",
+      "label": "Modeling",
+      "icon": ":/out_mesh.png",
+      "color": "#4a6741",
+      "items": [
+        {
+          "id": "poly1",
+          "label": "Poly A",
+          "icon": ":/out_mesh.png",
+          "submenu": []
+        },
+        {
+          "id": "poly2",
+          "label": "Poly B",
+          "icon": ":/out_mesh.png",
+          "submenu": []
+        }
+      ]
+    },
+    {
+      "id": "Skinning",
+      "label": "Skinning",
+      "icon": ":/out_mesh.png",
+      "color": "#4aaa41",
+      "items": [
+        {
+          "id": "poly1",
+          "label": "Poly A",
+          "icon": ":/out_mesh.png",
+          "submenu": []
+        },
+        {
+          "id": "poly2",
+          "label": "Poly B",
+          "icon": ":/out_mesh.png",
+          "submenu": []
+        }
+      ]
+    },
+    {
+      "id": "Animation",
+      "label": "Animation",
+      "icon": ":/out_mesh.png",
+      "color": "#4a67aa",
+      "items": [
+        {
+          "id": "poly1",
+          "label": "Poly A",
+          "icon": ":/out_mesh.png",
+          "submenu": []
+        },
+        {
+          "id": "poly2",
+          "label": "Poly B",
+          "icon": ":/out_mesh.png",
+          "submenu": []
+        }
+      ]
+    }
+  ]
+}
